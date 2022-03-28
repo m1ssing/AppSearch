@@ -1,3 +1,4 @@
+
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
@@ -16,10 +17,12 @@
 .wrapper{
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-
+    overflow-x: hidden;
+    height: 920px;
 }
+
 .btn {
-    margin: 0 220px 0 10px;
+    margin: 0 50px 0 10px;
     padding: 10px 0 0 0;
     height: 220px;
     width: 200px;
@@ -32,8 +35,17 @@
 
 .btn a{
     text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007ac2;
 }
 .btn:hover {
     opacity: .3;
+    }
+
+.btn a:hover {
+    text-decoration: underline;
     }
 
